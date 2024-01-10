@@ -20,9 +20,8 @@ import { Fade, ScaleFade, Slide, SlideFade, Collapse } from "@chakra-ui/react";
 import { CloseIcon } from "@chakra-ui/icons";
 
 export default function PageTodoList() {
-  const url =
-    "https://res.cloudinary.com/zenn/image/upload/s--BkGSqkWY--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:%25E3%2583%2586%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A1%25E3%2582%25A4%25E3%2583%25AB%25E3%2582%2592%25E3%2583%2586%25E3%2583%25B3%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E3%2581%258B%25E3%2582%2589%25E8%2587%25AA%25E5%258B%2595%25E7%2594%259F%25E6%2588%2590%25E3%2581%2597%25E3%2581%259F%25E3%2581%2584%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:Wizard%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUFjSFR0Y2d6ZlpGdXEwSHFxM1Rhd3NGRWxhdm5rTmQ3Q3lCWTBSdk9Fd3VhamFjPXM5Ni1j%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png";
-
+  // プレースホルダー画像
+  const url = "https://placehold.jp/500x400.png";
   const [imageUrl, setImageUrl] = useState(url);
 
   const schema = z.object({
@@ -84,49 +83,49 @@ export default function PageTodoList() {
           todoList={[
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: false,
               imageUrl: imageUrl,
               externalUrl: "https://google.com"
@@ -135,7 +134,7 @@ export default function PageTodoList() {
           completeList={[
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: true,
               imageUrl: imageUrl,
               externalUrl: "https://google.com",
@@ -143,7 +142,7 @@ export default function PageTodoList() {
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: true,
               imageUrl: imageUrl,
               externalUrl: "https://google.com",
@@ -151,7 +150,7 @@ export default function PageTodoList() {
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: true,
               imageUrl: imageUrl,
               externalUrl: "https://google.com",
@@ -159,7 +158,7 @@ export default function PageTodoList() {
             },
             {
               id: 1,
-              title: "本当は教えたくない、テストテスト",
+              title: "テストテスト、テストテスト",
               completed: true,
               imageUrl: imageUrl,
               externalUrl: "https://google.com",
